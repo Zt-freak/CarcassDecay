@@ -1,0 +1,20 @@
+<BFAITaskTemplateList>
+    <BFAITaskTemplate Name="Decay" UniqueID="Carcass:Decay">
+        <BFAICreateData>
+            <Subjects>
+                <Carcass_Meat/>
+                <Carcass_Chum_mm/>
+                <Qualifiers_AND f_FoodLevel="E 0" inWater_OR_onLand="true"/>
+            </Subjects>
+            <Targets>
+                <self />
+            </Targets>
+            <Objects />
+        </BFAICreateData>
+        <BFAIEvalData fixedScore="150" />
+        <BFBehExecTask>
+            <BFBehKill killSubject="true" />
+        </BFBehExecTask>
+        <BFAICompletionData/>
+    </BFAITaskTemplate>
+</BFAITaskTemplateList>
