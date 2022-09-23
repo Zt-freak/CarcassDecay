@@ -18,3 +18,4 @@ jobs:
       uses: anyone-developer/anyone-validate-xml@main
       with:
         file-extension: '.beh,.bfmat,.tsk,.xml,.zt2'
+        read-path: '.'
