@@ -17,7 +17,7 @@ jobs:
     - name: Validate
       uses: anyone-developer/anyone-validate-xml@main
       with:
-        file-extension: '.beh,.bfmat,.tsk,.xml,.zt2'
+        file-extension: '.beh,.bfmat,.tsk,.txtkeys,.xml,.zt2'
         ignore-files: 'README.md'
         ignore-directories: '.git'
         read-path: '.'
