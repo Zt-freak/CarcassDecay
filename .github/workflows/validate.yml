@@ -18,4 +18,6 @@ jobs:
       uses: anyone-developer/anyone-validate-xml@main
       with:
         file-extension: '.beh,.bfmat,.tsk,.xml,.zt2'
+        ignore-files: 'README.md'
+        ignore-directories: '.git'
         read-path: '.'
